@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+numpy = "*"
+scipy = "*"
+matplotlib = "*"
+pillow = "*"
+scikit-learn = "*"
+seaborn = "*"
+pandas = "*"
+cython = "*"
+xgboost = "*"
+spacy = "*"
+tensorflow = "*"
+torchvision = "*"
+torch = {file = "http://download.pytorch.org/whl/cpu/torch-0.4.1-cp36-cp36m-linux_x86_64.whl"}
+ipykernel = "*"
+opencv-contrib-python = "*"
+sympy = "*"
+pytest = "*"
+
+[requires]
+python_version = "3.6"
